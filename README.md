@@ -1,1 +1,7 @@
 # task1
+
+CREATE DATABASE pr1 WITH LOCALE = "ru_RU.UTF-8" TEMPLATE template0;;
+
+CREATE USER bsnikitin WITH PASSWORD '1qwerty1';
+
+GRANT USAGE ON SCHEMA PUBLIC TO bsnikitin;
